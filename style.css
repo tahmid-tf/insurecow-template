@@ -212,7 +212,7 @@ body {
 @media screen and (max-width: 420px) {
   .footer-text-1 {
     /* margin-top: -170px; */
-    padding-bottom: auto;
+    padding-bottom: 10px;
   }
 
   .bulb {
