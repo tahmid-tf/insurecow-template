@@ -144,7 +144,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .header-section {
     background-image: url(./images/Background-image-mobile.png);
     height: auto;
@@ -169,6 +169,7 @@ body {
 
   .middle2 {
     margin-left: 0px;
+    margin: auto;
   }
   .notice-font {
     font-family: "Preah Vihear";
@@ -201,6 +202,10 @@ body {
 
   .mobile-footer-contact-phone {
     padding-top: 10px;
+  }
+
+  .footer-text-1 {
+    margin-top: -85px;
   }
 }
 
