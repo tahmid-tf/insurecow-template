@@ -163,5 +163,6 @@ body {
 @media screen and (max-width: 320px) {
   .header-section {
     height: auto;
+    padding-top: 100px;
   }
 }
