@@ -101,6 +101,8 @@ body {
 @media screen and (max-width: 414px) {
   .header-section {
     background-image: url(./images/Background-image-mobile.png);
+    height: auto;
+    padding-bottom: 12px;
   }
 
   .bulb {
@@ -156,4 +158,10 @@ body {
   }
 
   /* ///// end of responsive footer section */
+}
+
+@media screen and (max-width: 320px) {
+  .header-section {
+    height: auto;
+  }
 }
