@@ -98,7 +98,7 @@ body {
 
 /* /////  */
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 630px) {
   .header-section {
     background-image: url(./images/Background-image-mobile.png);
     height: auto;
