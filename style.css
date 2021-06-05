@@ -206,7 +206,7 @@ body {
 
 @media screen and (max-width: 420px) {
   .footer-text-1 {
-    margin-top: -170px;
+    /* margin-top: -170px; */
   }
 
   .bulb {
@@ -219,13 +219,8 @@ body {
     margin-top: 170px;
   }
 
-  .notice-font {
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  .footer-text-1 {
+  /* .footer-text-1 {
     font-size: 18px;
     line-height: 24px;
-  }
+  } */
 }
