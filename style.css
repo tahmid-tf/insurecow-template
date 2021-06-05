@@ -218,4 +218,13 @@ body {
     justify-content: center;
     margin-top: 170px;
   }
+
+  .notice-font {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .footer-text-1 {
+    font-size: 20px;
+  }
 }
