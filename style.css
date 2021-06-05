@@ -165,3 +165,63 @@ body {
     height: auto;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .header-section {
+    background-image: url(./images/Background-image-mobile.png);
+    height: auto;
+    padding-bottom: 12px;
+  }
+
+  .bulb {
+    width: 199.19px;
+    right: 20px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+  }
+
+  .logo-image {
+    width: 173px;
+    height: 193px;
+  }
+
+  .middle2 {
+    margin-left: 0px;
+  }
+  .notice-font {
+    font-family: "Preah Vihear";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .middle2 {
+    display: block;
+    text-align: center;
+  }
+
+  /* ///// responsive footer section ///// */
+
+  .footer {
+    /* margin-top: 220px; */
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .footer-contact-phone {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .mobile-footer-contact-phone {
+    padding-top: 10px;
+  }
+}
