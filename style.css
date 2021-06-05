@@ -18,7 +18,7 @@ body {
 .bulb {
   position: absolute;
   right: 50px;
-  width: 500px;
+  width: 480px;
 }
 
 .logo {
@@ -102,7 +102,7 @@ body {
   .bulb {
     position: absolute;
     right: 50px;
-    width: 300px;
+    width: 260px;
   }
 
   .logo-image {
