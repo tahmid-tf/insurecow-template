@@ -238,3 +238,16 @@ body {
     line-height: 24px;
   } */
 }
+
+/* /--------------- mobile devices (375x812) media screen-----------------*/
+
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+  .bulb {
+    width: 120px;
+  }
+
+  .footer {
+    margin-top: 126px;
+  }
+}
+/*-----------------------------------------------------------------*/
