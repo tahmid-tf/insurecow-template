@@ -149,12 +149,12 @@ body {
 @media only screen and (max-width: 1024px) and (max-height: 1366px) {
   .header-section {
     background-image: url(./images/bg.png);
-    height: auto;
+    height: 100%;
     padding-bottom: 12px;
   }
 
   .bulb {
-    width: 250.19px;
+    width: 280.19px;
     right: 20px;
   }
 
@@ -198,7 +198,7 @@ body {
     /* margin-top: 220px; */
     font-size: 18px;
     line-height: 27px;
-    margin-top: 568px;
+    margin-top: 518px;
   }
 
   .footer-contact-phone {
@@ -215,13 +215,76 @@ body {
   .footer-text-1 {
     margin-top: auto;
     padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     font-size: 27px;
   }
+  /* ---------------------------------------------------- End - footer section*/
 }
 /* ------------------------------------------------ End - responsive footer section*/
 /* ---------------------------------------------------End - tab(large) devices (1024 x 1366) media screen */
 
-/* ---------------------------------------------------- End - footer section*/
+/* ------------------- tab (large) device (1366x1024) horizontal media screen with js file -------------------------------------- */
+.bulb-1366-1024 {
+  width: 300px;
+}
+
+.logo-image-1366-1024 {
+  width: 250px;
+  margin-top: 10px;
+}
+
+.notice-font-1366-1024 {
+  font-size: 50px;
+  line-height: 52px;
+}
+
+.middle-1366-1024 {
+  margin-top: 70px;
+}
+
+.footer-1366-1024 {
+  margin-top: 410px;
+}
+
+/* ---------------------------------------------------------- tab (large) device (1366x1024) media screen with js file */
+
+/* ------------------- tab device (1024x768) horizontal media screen with js file -------------------------------------- */
+
+.bulb-1024-768 {
+  width: 230px;
+}
+
+.logo-image-1024-768 {
+  width: 160px;
+  height: 160px;
+}
+
+.notice-font-1024-768 {
+  font-size: 40px;
+}
+
+.middle-1024-768 {
+  margin-top: -190px;
+}
+
+.footer-1024-768 {
+  margin-top: 210px;
+}
+
+.footer-text-1-1024-768 {
+  font-size: 22px;
+}
+
+.footer-contact-phone-1024-768 {
+  font-size: 14px;
+}
+
+.footer-phone-1024-768 {
+  font-size: 14px;
+}
+
+/* --------------------------------------------------------- tab device (1024x768) horizontal media screen with js file */
 
 /* ----------- tab devices (768 x 1024) media screen ------------- */
 
