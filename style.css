@@ -156,10 +156,14 @@ body {
     right: 20px;
   }
 
-  .logo {
+  /* .logo {
     display: flex;
     justify-content: center;
     margin-top: 230px;
+  } */
+
+  .logo {
+    margin-top: 10px;
   }
 
   .logo-image {
