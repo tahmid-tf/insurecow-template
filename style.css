@@ -221,42 +221,7 @@ body {
 /* ------------------------------------------------ End - responsive footer section*/
 /* ---------------------------------------------------End - tab(large) devices (1024 x 1366) media screen */
 
-/* -------------------------------- width screem 420px ------------------------------------------ */
-
-@media screen and (max-width: 420px) {
-  .footer-text-1 {
-  }
-
-  .bulb {
-    width: 150px;
-  }
-
-  .logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 170px;
-  }
-
-  /* .footer-text-1 {
-    font-size: 18px;
-    line-height: 24px;
-  } */
-}
-
 /* ---------------------------------------------------- End - footer section*/
-
-/* /--------------- mobile devices (375x812) media screen--------------*/
-
-@media only screen and (max-width: 375px) and (max-height: 812px) {
-  .bulb {
-    width: 120px;
-  }
-
-  .footer {
-    margin-top: 126px;
-  }
-}
-/*-----------------------------------------------------------------*/
 
 /* ----------- tab devices (768 x 1024) media screen ------------- */
 
@@ -295,3 +260,51 @@ body {
 }
 
 /* -------------------------------------------------------------- */
+
+/* /--------------- mobile devices (375x812) media screen--------------*/
+
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+  .bulb {
+    width: 160px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+  }
+
+  .middle {
+    margin-top: -200px;
+  }
+
+  .logo-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .middle2 {
+    margin-top: 273px;
+  }
+
+  .notice-font {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  .footer-text-1 {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 17px;
+    line-height: 17px;
+  }
+
+  .footer {
+    margin-top: 100px;
+  }
+
+  .footer-contact-phone {
+    font-size: 12px;
+  }
+}
+/*----------------------------------------------------------------- End - mobile devices meida screen*/
