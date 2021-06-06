@@ -144,9 +144,9 @@ body {
   }
 }
 
-/* ///// width section 1024px ///// */
+/* --------------------- tab screen (1024x1366) ------------------------------- */
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (max-height: 1366px) {
   .header-section {
     background-image: url(./images/bg.png);
     height: auto;
@@ -154,7 +154,7 @@ body {
   }
 
   .bulb {
-    width: 199.19px;
+    width: 250.19px;
     right: 20px;
   }
 
@@ -169,19 +169,20 @@ body {
   }
 
   .logo-image {
-    width: 173px;
-    height: 193px;
+    width: 250px;
+    height: 250px;
   }
 
   .middle2 {
     margin-left: 0px;
     margin: auto;
+    margin-top: 300px;
   }
   .notice-font {
     font-family: "Preah Vihear";
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 50px;
     text-align: center;
   }
@@ -197,12 +198,13 @@ body {
     /* margin-top: 220px; */
     font-size: 18px;
     line-height: 27px;
+    margin-top: 568px;
   }
 
   .footer-contact-phone {
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 11px;
+    font-size: 17px;
     line-height: 15px;
   }
 
@@ -213,14 +215,16 @@ body {
   .footer-text-1 {
     margin-top: auto;
     padding-bottom: 10px;
+    font-size: 27px;
   }
 }
 
-/* ///// width screem 420px ///// */
+/* -------------------------------------------------- */
+
+/* ------------- width screem 420px ----------------- */
 
 @media screen and (max-width: 420px) {
   .footer-text-1 {
-    /* margin-top: -170px; */
   }
 
   .bulb {
@@ -239,7 +243,9 @@ body {
   } */
 }
 
-/* /--------------- mobile devices (375x812) media screen-----------------*/
+/* ---------------------------------------------------- */
+
+/* /--------------- mobile devices (375x812) media screen--------------*/
 
 @media only screen and (max-width: 375px) and (max-height: 812px) {
   .bulb {
@@ -251,3 +257,21 @@ body {
   }
 }
 /*-----------------------------------------------------------------*/
+
+/* ----------- tab devices (1024 x 768) media screen ------------- */
+
+/* @media only screen and (max-width: 1024px) and (max-height: 1366px) {
+  .footer {
+    margin-top: 600px;
+  }
+
+  .notice-font {
+    font-size: 50px;
+  }
+
+  .middle2 {
+    margin-top: 100px;
+  }
+} */
+
+/* -------------------------------------------------------------- */
